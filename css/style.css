@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  font-family: arial;
+  background-color: rgb(37, 37, 37);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(34, 34, 34);
+  height: 70px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+/*Banner*/
+body {
+  margin: 0;
+}
+
+.banner {
+  /* background-image: linear-gradient(rgba(202, 36, 36, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1588286840104-8957b019727f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80); */
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  padding: 50px;
+  width: 100%;
+  background-image: url("/img/banner.avif");
+}
+
+.bannerdiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background: url("../img/Plan de travail 1.png") no-repeat;
+  background-size: cover;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 4em;
+}
+
+.banner h2 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 2em;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.link {
+  color: #cb25ce;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.link:hover {
+  color: #84668d;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 2vw;
+}
+.img-card {
+  width: 100%; 
+  height: auto; 
+   object-fit: cover;
+}
+
+.realisation {
+  color: aliceblue;
+  text-align: center;
+} 
+
+.Realisation p{
+  color: white;
+  text-align: center;
+}
+
+.Realisation h2{
+  color: white;
+  text-align: center;
+}
+
+.card {
+  max-width: 100%;
+  display: flex;
+  text-align: center;
+  margin: 1%;
+}
+
+.cards-background {
+  background-color: rgb(67, 41, 91);
+  max-width: 100%;
+  padding: 1%;
+  text-align: end;
+}
+
+.card h4 {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+.card a {
+  background-color: blueviolet;
+  color: cornsilk;
+  text-align: center;
+  display: flex;
+}
+
+/*Qui suis-je*/
+
+.cards-grid-1 {
+  background: black;
+  width: 100%;
+  display: flex;
+}
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+.feature {
+  padding: 7rem 0;
+}
+
+.feature-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.feature-content {
+  align-self: center;
+  grid-row: 1;
+  color: aliceblue;
+
+}
+
+.feature-img {
+  max-height: 36rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*avis*/
+.feature-avis {
+  padding: 7rem 0;
+}
+
+.feature-layout-avis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  margin: 9rem;
+}
+
+.feature-content-avis {
+  align-self: center;
+  grid-row: 2;
+  color: aliceblue;
+
+}
+
+.feature-img-1 {
+  max-height: 36rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.feature-content-avis2 {
+  align-self: center;
+  grid-row: 2;
+  color: aliceblue;
+
+}
+
+.feature-img-2 {
+  max-height: 36rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.feature-content-avis2 {
+  align-self: center;
+  grid-row: 2;
+  color: aliceblue;
+
+}
+
+.feature-img-2 {
+  max-height: 36rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*populaire*/
+
+.feature-rec {
+  padding: 7rem 0;
+}
+
+.feature-layout-rec {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  margin: 9rem;
+}
+
+.feature-content-rec {
+  align-self: center;
+  grid-row: 2;
+  color: aliceblue;
+
+}
+
+.feature-img-p1 {
+  max-height: 36rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.titre1 {
+  text-align: center;
+}
+
+.containerFooter {
+  background: rgb(57, 8, 69);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+.footerContainer {
+  padding: 48px 0;
+  background: rgb(57, 8, 69);
+}
+
+.footerGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-height: 100%;
+}
+
+.footerNavigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.footer-copyright {
+  color: black;
+  opacity: 0.15;
+}
+
+
+
